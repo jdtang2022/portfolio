@@ -1,0 +1,13 @@
+megaFolderMaker.sh
+
+doginasuit.jpg
+
+../week1
+
+.
+
+filenames.sh
+
+../week3
+
+fruitLoop.sh
