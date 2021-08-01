@@ -35,16 +35,16 @@ read option
 # 'case' statement runs accordingly to user's input choice
 case $option in
 	
-	1) ./folderCreator.sh
+	1) ./folderCreator.sh						# call folderCreator.sh
 	;;
 
-	2) ./folderCopier.sh
+	2) ./folderCopier.sh						# call folderCopier.sh
 	;;
 
-	3) ./setPassword.sh
+	3) ./setPassword.sh							# call setPassword.sh
 	;;
 
-	*) echo "Invalid Option"
+	*) echo "Invalid Option!"
 	;;
 
 esac

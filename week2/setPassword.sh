@@ -26,5 +26,5 @@ mkdir -p "$folderName"
 # move 'secret.txt' file to user specified folder
 mv secret.txt "$folderName"
 
-echo -e "Password Changed!\nGoodbye"
+echo -e "Password Changed!\nGoodbye!"
 

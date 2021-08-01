@@ -12,7 +12,7 @@
 # read user password in silent, assign to 'pwEntered' variable
 read -sp "Please enter your password: " pwEntered
 
-# provide 'secret.txt' file location
+# assign 'secret.txt' file location
 hashedpwfile="hashFolder/secret.txt"
 
 # use sha256sum -c to check if input matches the stored hash
@@ -23,15 +23,11 @@ echo $pwEntered | sha256sum -c --status $hashedpwfile
 if [ $? -eq 0 ]; then
 
 	# if password is matched, print this message and quit with exit code 0
-	echo -e "\nAccess Granded"
-
-	exit 0
+	echo -e "\033[34m"\\n--Access Granted--"\033[0m" && exit 0				# set shell color to blue
 
 else
 
 	# if password is not matched, print this message and quit with exit code 1
-	echo -e "\nAccess Denied"
-
-	exit 1
+	echo -e "\033[31m"\\n!!Access Denied!!"\033[0m" && exit 1				# set shell color to red
 
 fi
