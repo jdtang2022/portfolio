@@ -18,10 +18,10 @@ read -p "Enter your second number: " b          # second number
 
 # Operation Menu
 echo "Choose your operation choice:"
-echo -e '\033[34m'1. Addition'\033[0m'          # blue output
-echo -e '\033[32m'2. Subtraction'\033[0m'       # green output
-echo -e '\033[31m'3. Multiplication'\033[0m'    # red output
-echo -e '\033[35m'4. Division'\033[0m'          # purple output
+echo -e "\033[34m1. Addition\033[0m"            # blue output
+echo -e "\033[32m2. Subtraction\033[0m"         # green output
+echo -e "\033[31m3. Multiplication\033[0m"      # red output
+echo -e "\033[35m4. Division\033[0m"            # purple output
 
 # Take user choice
 read choice
@@ -55,4 +55,4 @@ case $choice in
 esac
 
 # print result
-echo -e "\033[3$colorCode"Result: $a $sign $b = $res"\033[0m"
+echo -e "\033[3${colorCode}Result: $a $sign $b = $res\033[0m"

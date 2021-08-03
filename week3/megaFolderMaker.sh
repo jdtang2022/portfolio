@@ -32,4 +32,4 @@ do
 done
 
 # print number of directory created
-echo -e '\033[33m'Number of Folder Created: $counter'\033[0m'
+echo -e "\033[33mNumber of Folder Created: $counter\033[0m"

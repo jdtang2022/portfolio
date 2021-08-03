@@ -21,7 +21,7 @@ if [ -d "$folderName" ]; then
 	cp -r "$folderName" "$newFolderName"
 
 	# print success message
-	echo -e '\033[34m'Folder has been copied!'\033[0m'
+	echo -e "\033[34mFolder has been copied!\033[0m"
 
 else
 

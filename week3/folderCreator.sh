@@ -14,4 +14,4 @@ read -p "Type the name of the folder you would like to create: " folderName
 mkdir "$folderName"
 
 # print folder created message
-echo -e '\033[34m'Folder has been created!'\033[0m'
+echo -e "\033[34mFolder has been created!\033[0m"

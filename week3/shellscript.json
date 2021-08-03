@@ -40,7 +40,7 @@
 		"scope": "sh",
 		"prefix": "blackshell",
 		"body": [
-			"echo -e '\\033[30m'{This is BLACK}'\\033[0m'"
+			"echo -e '\\033[30m{This is BLACK}\\033[0m'"
 		],
 		"description": "Change shell Color to BLACK"
 	}
@@ -49,7 +49,7 @@
 		"scope": "sh",
 		"prefix": "redshell",
 		"body": [
-			"echo -e '\\033[31m'{This is RED}'\\033[0m'"
+			"echo -e '\\033[31m{This is RED}\\033[0m'"
 		],
 		"description": "Change shell Color to RED"
 	}
@@ -58,7 +58,7 @@
 		"scope": "sh",
 		"prefix": "greenshell",
 		"body": [
-			"echo -e '\\033[32m'{This is GREEN}'\\033[0m'"
+			"echo -e '\\033[32m{This is GREEN}\\033[0m'"
 		],
 		"description": "Change shell Color to GREEN"
 	}
@@ -67,7 +67,7 @@
 		"scope": "sh",
 		"prefix": "brownshell",
 		"body": [
-			"echo -e '\\033[33m'{This is BROWN}'\\033[0m'"
+			"echo -e '\\033[33m{This is BROWN}\\033[0m'"
 		],
 		"description": "Change shell Color to BROWN"
 	}
@@ -76,7 +76,7 @@
 		"scope": "sh",
 		"prefix": "blueshell",
 		"body": [
-			"echo -e '\\033[34m'{This is BLUE}'\\033[0m'"
+			"echo -e '\\033[34m{This is BLUE}\\033[0m'"
 		],
 		"description": "Change shell Color to BLUE"
 	}
@@ -85,7 +85,7 @@
 		"scope": "sh",
 		"prefix": "purpleshell",
 		"body": [
-			"echo -e '\\033[35m'{This is PURPLE}'\\033[0m'"
+			"echo -e '\\033[35m{This is PURPLE}\\033[0m'"
 		],
 		"description": "Change shell Color to PURPLE"
 	}
@@ -94,7 +94,7 @@
 		"scope": "sh",
 		"prefix": "cyanshell",
 		"body": [
-			"echo -e '\\033[36m'{This is CYAN}'\\033[0m'"
+			"echo -e '\\033[36m{This is CYAN}\\033[0m'"
 		],
 		"description": "Change shell Color to CYAN"
 	}
@@ -103,7 +103,7 @@
 		"scope": "sh",
 		"prefix": "greyshell",
 		"body": [
-			"echo -e '\\033[37m'{This is GREY}'\\033[0m'"
+			"echo -e '\\033[37m{This is GREY}\\033[0m'"
 		],
 		"description": "Change shell Color to GREY"
 	}

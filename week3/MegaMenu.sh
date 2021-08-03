@@ -16,8 +16,8 @@
 if test $? -eq 0; then
 
 	# print menu
-	echo -e '\033[33m'Select an option:'\033[0m'		# set shell to blue for this line
-	echo -e -n '\033[32m'									# set shell to green
+	echo -e "\033[33mSelect an option:\033[0m"				# set shell to blue for this line
+	echo -e -n "\033[32m"									# set shell to green
 	echo "1. Create a folder"
 	echo "2. Copy a folder"
 	echo "3. Set a password"
@@ -25,7 +25,7 @@ if test $? -eq 0; then
 	echo "5. Create Week Folders"
 	echo "6. Check Filenames"
 	echo "7. Download a File"
-	echo -e -n '\033[0m'									# set shell to normal
+	echo -e -n "\033[0m"									# set shell to normal
 	echo "8. Exit"
 
 else
@@ -71,14 +71,14 @@ do
 		7)	./InternetDownloader.sh								# call InternetDownloader.sh
 		;;
 
-		*)	echo -e '\033[31m'Invalid Option!!'\033[0m'
+		*)	echo -e "\033[31mInvalid Option!!\033[0m"
 		;;
 
 	esac
 
 	# print menu
-	echo -e '\033[35m'Select an option:'\033[0m'		# set shell to purple for this line
-	echo -e -n '\033[32m'									# set shell to green
+	echo -e "\033[35mSelect an option:\033[0m"				# set shell to purple for this line
+	echo -e -n "\033[32m"									# set shell to green
 	echo "1. Create a folder"
 	echo "2. Copy a folder"
 	echo "3. Set a password"
@@ -86,7 +86,7 @@ do
 	echo "5. Create Week Folders"
 	echo "6. Check Filenames"
 	echo "7. Download a File"
-	echo -e -n '\033[0m'									# set shell to normal
+	echo -e -n "\033[0m"									# set shell to normal
 	echo "8. Exit"
 
 	# read user option
@@ -95,7 +95,7 @@ do
 done
 
 # print goodbye message
-echo -e '\033[36m'Thank You! Goodbye!'\033[0m'
+echo -e "\033[36mThank You! Goodbye!\033[0m"
 
 
 

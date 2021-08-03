@@ -23,11 +23,11 @@ echo $pwEntered | sha256sum -c --status $hashedpwfile
 if [ $? -eq 0 ]; then
 
 	# if password is matched, print this message and quit with exit code 0
-	echo -e "\033[34m"\\n--Access Granted--"\033[0m" && exit 0				# set shell color to blue
+	echo -e "\033[34m\\n--Access Granted--\033[0m" && exit 0				# set shell color to blue
 
 else
 
 	# if password is not matched, print this message and quit with exit code 1
-	echo -e "\033[31m"\\n!!Access Denied!!"\033[0m" && exit 1				# set shell color to red
+	echo -e "\033[31m\\n!!Access Denied!!\033[0m" && exit 1				# set shell color to red
 
 fi

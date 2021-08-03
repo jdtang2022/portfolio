@@ -34,4 +34,4 @@ do
 done
 
 # print goodbye message
-echo -e '\033[36m'Goodbye!'\033[0m'
+echo -e "\033[36mGoodbye!\033[0m"
