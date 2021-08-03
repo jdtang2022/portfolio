@@ -35,17 +35,17 @@ do
     if [ -f "$line" ]; then                                     # check for valid file
 
         # if file is valid, print this
-        echo -e '\033[32m'That file exists'\033[0m'
+        echo -e "\033[32mThat file exists\033[0m"
 
     elif [ -d "$line" ]; then                                   # check for valid directory
 
         # if a directory, print this
-        echo -e '\033[34m'That\'s a directory'\033[0m'
+        echo -e "\033[34mThat's a directory\033[0m"
 
     else
 
         # Otherwise print this
-        echo -e '\033[36m'I don\'t know what that is!'\033[0m'
+        echo -e "\033[36mI don't know what that is!\033[0m"
 
     fi
 
