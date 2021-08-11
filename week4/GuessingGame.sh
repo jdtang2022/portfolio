@@ -21,6 +21,9 @@ printError()
 # declare and set guess boolean to false
 guess=false
 
+# declare 'jackpot' number
+jackpot=42
+
 # function to take guess number from user until matched
 getNumber()
 {
@@ -38,20 +41,21 @@ getNumber()
 
             read -p "$1: "                                      # take user guess input
 
-        # if user guess is less than 42
-        elif [ $REPLY -lt 42 ]; then
+        # if user guess is less than 'jackpot' (42)
+        elif [ $REPLY -lt $jackpot ]; then
 
             echo -e "\033[31mToo Low!\033[0m"                   # print message in red
 
             read -p "$1: "                                      # take user guess input
-
-        elif [ $REPLY -gt 42 ]; then
+        
+        # if user guess is greater than 'jackpot' (42)
+        elif [ $REPLY -gt $jackpot ]; then
 
             echo -e "\033[31mToo High!\033[0m"                  # print message in red
 
             read -p "$1: "                                      # take user guess input
 
-        else
+        else # otherwise (if guess is equal to 'jackpot' (42)
 
             echo -e "\033[34mCorrect!\033[0m"                   # print message in blue
 

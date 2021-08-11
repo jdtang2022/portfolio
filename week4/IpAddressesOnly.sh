@@ -2,7 +2,7 @@
 #
 # IpAddressOnly.sh
 # @version 1.0
-# It executes the 'IpInfo.sh' script and uses sed to display only the lines with 'IP Address' on them
+# It executes the 'IpInfo.sh' script and uses 'sed' to display only the lines with 'IP Address' on them
 #
 # @author: Jay <jdtang@our.ecu.edu.au>
 # @date: 04/08/2021
