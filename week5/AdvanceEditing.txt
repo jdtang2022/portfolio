@@ -1,0 +1,5 @@
+# Find every 'echo' statement that end with '!' in GuessingGame.sh
+grep 'echo .*".*!"' ../week4/GuessingGame.sh
+
+# replace the text 'Correct' to 'Right'
+sed -i '/echo .*".*!"/ s/Correct/Right/' ../week4/GuessingGame.sh
