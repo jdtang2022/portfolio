@@ -16,6 +16,7 @@
 # import library
 import hashlib
 import itertools
+import time
 
 # hidden password hash
 passwordHash = "8b7df143d91c716ecfa5fc1730022f6b421b05cedee8fd52b1fc65a96030ad52"
@@ -27,13 +28,19 @@ LETTERS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
 MIN_LENGTH = 3
 MAX_LENGTH = 5
 
+# set start time
+timeStart = time.time()
+
+# set counter to 1
+counter = 1
+
 # function can be used to hash sequence of characters
 def sha256Hash(char_sequence):
 
     wordString = ''.join(char_sequence)
 
     wordHash = hashlib.sha256(wordString.encode('utf-8'))
-
+    
     return wordHash.hexdigest()
 
 
@@ -43,7 +50,10 @@ for n in range(MIN_LENGTH, MAX_LENGTH):
     # start brute force attack
     for word in itertools.product(LETTERS, repeat=n):
 
-        # hash the word
+        # keep counter (number of attempts)
+        counter += 1
+
+        # hash the word by using function
         #generatedHash = hashlib.sha256(''.join(word).encode('utf-8')).hexdigest()
         generatedHash = sha256Hash(word)
 
@@ -52,7 +62,23 @@ for n in range(MIN_LENGTH, MAX_LENGTH):
 
         #if the hash is the same as the correct password's hash then we have cracked the password!
         if generatedHash in passwordHash:
+
+            # set end time
+            timeEnd = time.time()
+
+            # find time taken and round to 2 decimal places
+            timeTaken = "{:.2f}".format(timeEnd - timeStart)
             
             print(f"Password has been cracked! it was '{''.join(word)}'")
+
+            # print total time taken and number of attempts
+            print("Time taken was:", timeTaken, "seconds and", counter, "attempts!")
+
+            # print number of attempts per second and round it to 2 decimal places
+            print("There was:", "{:.2f}".format(float(counter) / float(timeTaken)), "attempts per second!")
             
             break
+
+# Reference:
+# Follow some code syntaxs and concepts from:
+#       www.instructables.com/Password-Brute-forcer-in-Python/
