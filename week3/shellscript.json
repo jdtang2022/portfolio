@@ -26,12 +26,13 @@
 		"scope": "sh",
 		"prefix": "filecomments",
 		"body": [
-			"# {filename}",
-			"# @version ",
-			"# {purpose}",
+			"# Filename: ",
+			"# @version: ",
+			"# Description: ",
 			"#",
 			"# @author: Jay <jdtang@our.ecu.edu.au>",
-			"# @date: date"
+			"# @creation date:      date",
+			"# @last modified date: date"
 		],
 		"description": "Add comments to the file"
 	}

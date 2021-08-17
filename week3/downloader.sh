@@ -1,14 +1,15 @@
 #!/bin/bash
 #
-# InternetDownloader.sh
-# @version 1.0
-# This script used to repeat a prompt for input until the user chooses to exit.
-#   - prompt the user to type a website URL to download or type "exit" to "quit"
-#   - prompt the user to type a download location
-#   - use 'wget' command to download the file
+# Filename: downloader.sh
+# @version: 1.0
+# Description: This script used to repeat a prompt for input until the user chooses to exit.
+#               - prompt the user to type a website URL to download or type "exit" to "quit"
+#               - prompt the user to type a download location
+#               - use 'wget' command to download the file
 #
 # @author: Jay <jdtang@our.ecu.edu.au>
-# @date: 30/07/2021
+# @creation date:      30/07/2021
+# @last modified date: 17/08/2021
 
 # Take user's input for URL or 'exit' to quit
 read -p "Please type the URL of a file or type 'exit' to quit: " userInput

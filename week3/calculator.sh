@@ -1,11 +1,13 @@
 #!/bin/bash
-# simpleCalculator.sh
-# @version 1.0
-# This script uses conditional logic and arithmetic expressions to make simple calculation.
-# Users can do addtion, subtraction, multiplication and division of 2 integers.
+#
+# Filename: calculator.sh
+# @version: 1.0
+# Description: This script uses conditional logic and arithmetic expressions to make simple calculation.
+#              Users can do addtion, subtraction, multiplication and division of 2 integers.
 #
 # @author: Jay <jdtang@our.ecu.edu.au>
-# @date: 29/07/2021
+# @creation date:      29/07/2021
+# @last modified date: 17/08/2021
 
 # Welcome message
 echo -e '\033[33m'Welcome to Simple Calculator!!'\033[0m'

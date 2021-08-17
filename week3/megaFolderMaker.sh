@@ -1,10 +1,12 @@
 #!/bin/bash
-# megeFolderMaker.sh
-# @version 1.0
-# This script is for creating multi folders in one go.
+#
+# Filename: megaFolderMaker.sh
+# @version: 1.0
+# Description: This script is used to create multi folders in one go.
 #
 # @author: Jay <jdtang@our.ecu.edu.au>
-# @date: 30/07/2021
+# @creation date:      30/07/2021
+# @last modified date: 17/08/2021
 
 # counter variable
 counter=0

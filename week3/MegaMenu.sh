@@ -1,13 +1,15 @@
 #!/bin/bash
 #
-# MegaMenu.sh
-# @version 1.0
-# Checking the user input password against the hast stored in 'secret.txt'
-# if match, print "Access Granted" and quit with exit code 0, then display the "Menu"
-# Otherwise, print "Access Denied" and quit with exit code 1
+# Filename: MegaMenu.sh
+# @version: 1.0
+# Description: Checking the user input password against the hast stored in 'secret.txt'
+# 				*if match, print "Access Granted" and quit with exit code 0, then display the "Menu" for further 
+#					programming task, each menu option will call the correspond script for that particular task.
+# 				*Otherwise, print "Access Denied" and quit with exit code 1
 #
-# @author Jay <jdtang@our.ecu.edu.au>
-# @date: 21/07/2021
+# @author: Jay <jdtang@our.ecu.edu.au>
+# @creation date:      21/07/2021
+# @last modified date: 17/08/2021
 
 # run passwordCheck.sh script
 ./passwordCheck.sh
@@ -54,7 +56,7 @@ do
 		3) 	./setPassword.sh									# call setPassword.sh
 		;;
 
-		4) 	./simpleCalculator.sh								# call simpleCalculator.sh
+		4) 	./calculator.sh								# call simpleCalculator.sh
 		;;
 
 		5)	# Take two arguments from user input
@@ -68,7 +70,7 @@ do
 			./filenames.sh $temFilename							# call filenames.sh
 		;;
 
-		7)	./InternetDownloader.sh								# call InternetDownloader.sh
+		7)	./downloader.sh								# call InternetDownloader.sh
 		;;
 
 		*)	echo -e "\033[31mInvalid Option!!\033[0m"

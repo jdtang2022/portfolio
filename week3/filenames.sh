@@ -1,15 +1,16 @@
 #!/bin/bash
 #
-# filenames.sh
-# @version 1.0
-# The script will go through each line of a given file via command argument
-#   - If that line contains a valid filename, print "That file exists"
-#   - If that line contains a directory name, print "That's a directory"
-#   - Otherwise print "I don't know what that is!"
-#   - Test this script with "filenames.txt"
+# Filename: filename.sh
+# @version: 1.0
+# Description: The script will go through each line of a given file via command argument
+#               - If that line contains a valid filename, print "That file exists"
+#               - If that line contains a directory name, print "That's a directory"
+#               - Otherwise print "I don't know what that is!"
+#               - Test this script with "filenames.txt"
 #
 # @author: Jay <jdtang@our.ecu.edu.au>
-# @date: 30/07/2021
+# @creation date:      30/07/2021
+# @last modified date: 17/08/2021
 
 # Assign filename from first argument
 FILE=$1
