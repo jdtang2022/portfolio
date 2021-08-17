@@ -6,7 +6,7 @@
 #               and save it in a text file 'secret.txt' in the user specified folder
 #
 # @author: Jay <jdtang@our.ecu.edu.au>
-# @creation date:      21/02/2021
+# @creation date:      21/07/2021
 # @last modified date: 17/08/2021
 
 # ask user to input folder name and store it in 'folderName' variable

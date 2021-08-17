@@ -7,7 +7,7 @@
 #               *If not, print invalid message, set boolean to false
 #
 # @author: Jay <jdtang@our.ecu.edu.au>
-# @creation date:      21/02/2021
+# @creation date:      21/07/2021
 # @last modified date: 17/08/2021
 
 # Assign secret text   

@@ -7,7 +7,7 @@
 # 				Otherwise, print "Access Denied" and quit with exit code 1
 #
 # @author: Jay <jdtang@our.ecu.edu.au>
-# @creation date:      21/02/2021
+# @creation date:      21/07/2021
 # @last modified date: 17/08/2021
 
 # run passwordCheck.sh script

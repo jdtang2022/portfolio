@@ -6,7 +6,7 @@
 # 				Otherwise, print an error message
 #
 # @author: Jay <jdtang@our.ecu.edu.au>
-# @creation date:      21/02/2021
+# @creation date:      21/07/2021
 # @last modified date: 17/08/2021
 
 # read folder name from user input, assign it to 'folderName' variable
