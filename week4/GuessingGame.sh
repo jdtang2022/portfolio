@@ -1,16 +1,17 @@
 #!/bin/bash
 #
-# GuessingGame.sh
-# @version 1.0
-# Create a function that retrieves a number within a range from the user.
-#   - The user is asked to enter the number between 1 - 100
-#   - If the number is 42, print 'Correct!'
-#   - If the number is less than 42, print 'Too Low!'
-#   - If the number is greater than 42, print 'Too HIgh!'
-#   - Loop until the user found the correct number (42)
+# Filename: GuessingGame.sh
+# @version: 1.0
+# Description: Create a function that retrieves a number within a range from the user.
+#               - The user is asked to enter the number between 1 - 100
+#               - If the number is 42, print 'Correct!'
+#               - If the number is less than 42, print 'Too Low!'
+#               - If the number is greater than 42, print 'Too HIgh!'
+#               - Loop until the user found the correct number (42)
 #
 # @author: Jay <jdtang@our.ecu.edu.au>
-# @date: 02/08/2021
+# @creation date:      02/08/2021
+# @last modified date: 17/08/2021
 
 # function print given error
 printError()
@@ -57,7 +58,8 @@ getNumber()
 
         else # otherwise (if guess is equal to 'jackpot' (42)
 
-            echo -e "\033[34mCorrect!\033[0m"                   # print message in blue
+            #echo -e "\033[34mCorrect!\033[0m"
+            echo "Right!"                   # print message in blue
 
             guess=true                                          # set guess boolean to true
 

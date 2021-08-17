@@ -1,7 +1,17 @@
-Bash is the default shell on most Unix-like computers.
+Bash is the default shell on most Unix-like operating systems.
 
-It allows users to control computers through a command-line interface.
+It allows users to control systems through a command-line interface.
 
 It acts as a scripting language that can be used to automate tasks.
 
 'sed' is a program that alllow text to be parsed and modified in a powerful and effective way.
+
+<h3>Phising Breach - August 2025</h3>
+
+<h3>LimeVPN Breach - July 2025</h3>
+
+<h3>LimeVPN Breach - July 2022</h3>
+
+Text after the tag
+
+sed '/<h3>.*202.<\/h3>/,$!d' newtext.txt > test.txt

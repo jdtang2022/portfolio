@@ -1,12 +1,13 @@
 #!/bin/bash
 #
-# GetNumbers.sh
-# @version 1.0
-# Create a function that retrieves a number within a range from the user.
-# The input prompt will repeat until the user types a valid number within the given range.
+# Filename: GetNumbers.sh
+# @version: 1.0
+# Description: Create a function that retrieves a number within a range from the user.
+#              The input prompt will repeat until the user types a valid number within the given range.
 #
 # @author: Jay <jdtang@our.ecu.edu.au>
-# @date: 02/08/2021
+# @creation date:      02/08/2021
+# @last modified date: 17/08/2021
 
 # This function prints a given error
 printError()
