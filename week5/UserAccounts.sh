@@ -10,7 +10,7 @@
 # @last modified date: 12/08/2021
 
 # Seperate field by ':', and print only 1st, 2nd, 3rd, 6th and 7th field where 'Shell' field match "/bin/bash"
-# The first 'awk' command only print lines that match the set Regex (/bin/bash)
+# The first 'awk' command only print lines that match the Regex pattern (/bin/bash)
 # The second 'awk' command format output into a neat table
 awk -F: '$7 ~ /\/bin\/bash$/ {print $0}' /etc/passwd | awk 'BEGIN {
 
