@@ -1,12 +1,13 @@
 #!/bin/bash
 #
-# setPassword.sh
-# @version 1.0
-# Ask user to input password, hast it using the sha256sum tool
-# and save it in a text file 'secret.txt' in the user specified folder
+# Filename: setPassword.sh
+# @version: 1.0
+# Description: Ask user to input password, hast it using the sha256sum tool
+#               and save it in a text file 'secret.txt' in the user specified folder
 #
-# @author Jay <jdtang@our.ecu.edu.au>
-# @date: 21/07/2021
+# @author: Jay <jdtang@our.ecu.edu.au>
+# @creation date:      21/02/2021
+# @last modified date: 17/08/2021
 
 # ask user to input folder name and store it in 'folderName' variable
 read -p "Enter your folder name: " folderName

@@ -1,13 +1,14 @@
 #!/bin/bash
 #
-# menu.sh
-# @version 1.0
-# Checking the user input password against the hast stored in 'secret.txt'
-# if match, print "Access Granted" and quit with exit code 0, then display the "Menu"
-# Otherwise, print "Access Denied" and quit with exit code 1
+# Filename: menu.sh
+# @version: 1.0
+# Description: Checking the user input password against the hast stored in 'secret.txt'
+# 				if match, print "Access Granted" and quit with exit code 0, then display the "Menu"
+# 				Otherwise, print "Access Denied" and quit with exit code 1
 #
-# @author Jay <jdtang@our.ecu.edu.au>
-# @date: 21/07/2021
+# @author: Jay <jdtang@our.ecu.edu.au>
+# @creation date:      21/02/2021
+# @last modified date: 17/08/2021
 
 # run passwordCheck.sh script
 ./passwordCheck.sh

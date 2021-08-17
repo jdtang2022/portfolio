@@ -1,13 +1,14 @@
 #!/bin/bash
 #
-# error.sh
-# @version 1.0
-# Take secret code from user' input
-#   *If correct, print correct message, set boolean to true then provide access to 'secret menu'
-#   *If not, print invalid message, set boolean to false
+# Filename: error.sh
+# @version: 1.0
+# Description: Take secret code from user' input
+#               *If correct, print correct message, set boolean to true then provide access to 'secret menu'
+#               *If not, print invalid message, set boolean to false
 #
 # @author: Jay <jdtang@our.ecu.edu.au>
-# @date: 27/07/2021
+# @creation date:      21/02/2021
+# @last modified date: 17/08/2021
 
 # Assign secret text   
 secret='shhh' #Don't tell anyone! 

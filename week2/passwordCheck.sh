@@ -1,13 +1,14 @@
 #!/bin/bash
 #
-# passwordCheck.sh
-# @version 1.0
-# Checking the user input password against the hast stored in 'secret.txt'
-# if match, print "Access Granted" and quit with exit code 0
-# Otherwise, print "Access Denied" and quit with exit code 1
+# Filename: passwordCheck.sh
+# @version: 1.0
+# Description: Checking the user input password against the hast stored in 'secret.txt'
+# 				if match, print "Access Granted" and quit with exit code 0
+# 				Otherwise, print "Access Denied" and quit with exit code 1
 #
-# @author Jay <jdtang@our.ecu.edu.au>
-# @date: 21/07/2021
+# @author: Jay <jdtang@our.ecu.edu.au>
+# @creation date:      21/07/2021
+# @last modified date: 17/08/2021
 
 # read user password in silent, assign to 'pwEntered' variable
 read -sp "Please enter your password: " pwEntered
